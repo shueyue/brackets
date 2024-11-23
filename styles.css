@@ -1,0 +1,93 @@
+/* styles.css */
+
+body.background {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.band-profile {
+    margin-top: 80px;
+}
+
+.band-intro {
+    margin: 190px auto 0;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.band-intro h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.band-intro p {
+    line-height: 1.6;
+    font-size: 1em;
+}
+
+.band-intro img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.member-card {
+    flex: 1 1 calc(20% - 40px);
+    box-sizing: border-box;
+    margin: 20px;
+    text-align: center;
+}
+
+.member-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.member-card h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
