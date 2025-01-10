@@ -81,6 +81,10 @@ body.background {
     position: relative; /* 讓按鈕相對圖片定位 */
     width: fit-content; /* 確保卡片寬度剛好包住內容 */
 }
+.member-card2 {
+    display: block; /* 或使用 flex, grid 等合適的佈局方式 */
+}
+
 .member-image {
     max-width: 100%;
     height: auto;
