@@ -82,7 +82,10 @@ body.background {
     width: fit-content; /* 確保卡片寬度剛好包住內容 */
 }
 .member-card2 {
-    display: block; /* 或使用 flex, grid 等合適的佈局方式 */
+    flex: 1 1 calc(20% - 40px);
+    box-sizing: border-box;
+    margin: 20px;
+    text-align: center;
 }
 
 .member-image {
